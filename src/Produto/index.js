@@ -43,7 +43,7 @@ export default function Produto({ route }) {
       <TouchableOpacity onPress={ () => setCarrinho(false)}>
         <Ionicons style={{marginLeft: 5, marginRight: 5}} name='md-close' size={40} color={'#fff'}/>
       </TouchableOpacity>
-      <Text style={styles.dono}>Loja do Leonardo Moura</Text>
+      <Text style={styles.dono}>Loja da Jess</Text>
     </View>
       <View>
         {/* COLO O NOME DA PAGINA OU COLOCAR O ICONE DE CARRINHO EM CIMA */}
@@ -65,28 +65,28 @@ export default function Produto({ route }) {
               <View style={styles.imgGrade}>
                 <Image style={styles.img} source={require('../Image/brinco1.jpg')}/>
               </View>
-              <Text style={styles.imgPreco}>Preço: R$1.245,99</Text>
-              <Text style={styles.imgPreco}>Parcelameto: Até 5x s/juros</Text>
+              <Text style={styles.imgPreco}>Preço: R$--</Text>
+              <Text style={styles.imgPreco}>Parcelameto: --</Text>
           </View>
         </TouchableOpacity>
         <TouchableOpacity style={styles.prod} onPress={img02}>
           <View style={styles.imgGradePrincipal}>
-              <Text style={styles.imgTitle}>Moto G30</Text>
+              <Text style={styles.imgTitle}>--</Text>
               <View style={styles.imgGrade}>
                 <Image style={styles.img} source={require('../Image/brincocopin.jpg')}/>
               </View>
-              <Text style={styles.imgPreco}>Preço: R$1.375,00</Text>
-              <Text style={styles.imgPreco}>Parcelameto: Até 5x s/juros</Text>
+              <Text style={styles.imgPreco}>Preço: R$--</Text>
+              <Text style={styles.imgPreco}>Parcelameto: --</Text>
           </View>
         </TouchableOpacity>
         <TouchableOpacity style={styles.prod} onPress={img03}>
           <View style={styles.imgGradePrincipal}>
-              <Text style={styles.imgTitle}>Iphone 8 Plus</Text>
+              <Text style={styles.imgTitle}>--</Text>
               <View style={styles.imgGrade}>
                 <Image style={styles.img} source={require('../Image/brincoestranho.jpg')}/>
               </View>
-              <Text style={styles.imgPreco}>Preço: R$2.799,00</Text>
-              <Text style={styles.imgPreco}>Parcelameto: Até 5x s/juros</Text>
+              <Text style={styles.imgPreco}>Preço: R$--</Text>
+              <Text style={styles.imgPreco}>Parcelameto: --</Text>
           </View>
         </TouchableOpacity>
         
@@ -96,16 +96,14 @@ export default function Produto({ route }) {
               <TouchableOpacity onPress={ () => setImg1(false)}>
                 <Ionicons style={{marginLeft: 5, marginRight: 5}} name='md-close' size={40} color={'#fff'}/>
               </TouchableOpacity>
-              <Text style={styles.dono}>Loja do Leonardo Moura</Text>
+              <Text style={styles.dono}>Loja da Jess</Text>
             </View>
             <View style={styles.detProd}>
-              <Text style={styles.detProdNome}>Poco X3 Pro 5G 128GB</Text>
+              <Text style={styles.detProdNome}>--</Text>
               <Image style={styles.imgModal} source={require('../Image/brincolampada.jpg')}/>
               <View style={styles.detProdInfo}>
-                <Text style={styles.detProdInfoText}>Marca: Xiaomi</Text>
-                <Text style={styles.detProdInfoText}>Fabricante: Xiaomi</Text>
-                <Text style={styles.detProdInfoText}>Armazenamento: 128GB</Text>
-                <Text style={styles.detProdInfoText}>Memória RAM: 6GB</Text>
+                <Text style={styles.detProdInfoText}>--</Text>
+
               </View>
               <View style={styles.btnContainer}>
                 <TouchableOpacity onPress={logOut}><Text style={styles.btnCad}>Encerrar Compra</Text></TouchableOpacity>
@@ -124,16 +122,14 @@ export default function Produto({ route }) {
               <TouchableOpacity onPress={ () => setImg2(false)}>
                 <Ionicons style={{marginLeft: 5, marginRight: 5}} name='md-close' size={40} color={'#fff'}/>
               </TouchableOpacity>
-              <Text style={styles.dono}>Loja do Leonardo Moura</Text>
+              <Text style={styles.dono}>Loja da Jess</Text>
             </View>
             <View style={styles.detProd}>
-              <Text style={styles.detProdNome}>Moto G30</Text>
+              <Text style={styles.detProdNome}>--</Text>
               <Image style={styles.imgModal} source={require('../Image/brincopop2.jpg')}/>
               <View style={styles.detProdInfo}>
-                <Text style={styles.detProdInfoText}>Marca: Motorola</Text>
-                <Text style={styles.detProdInfoText}>Fabricante: Motorola</Text>
-                <Text style={styles.detProdInfoText}>Armazenamento: 128GB</Text>
-                <Text style={styles.detProdInfoText}>Memória Ram: 4GB</Text>
+                <Text style={styles.detProdInfoText}>--</Text>
+-
               </View>
               <View style={styles.btnContainer}>
                 <TouchableOpacity onPress={logOut}><Text style={styles.btnCad}>Encerrar Compra</Text></TouchableOpacity>
@@ -152,16 +148,14 @@ export default function Produto({ route }) {
               <TouchableOpacity onPress={ () => setImg3(false)}>
                 <Ionicons style={{marginLeft: 5, marginRight: 5}} name='md-close' size={40} color={'#fff'}/>
               </TouchableOpacity>
-              <Text style={styles.dono}>Loja do Leonardo Moura</Text>
+              <Text style={styles.dono}>Loja da Jess</Text>
             </View>
             <View style={styles.detProd}>
-              <Text style={styles.detProdNome}>Iphone 8 Plus</Text>
+              <Text style={styles.detProdNome}>--</Text>
               <Image style={styles.imgModal} source={require('../Image/brincoursinho.jpg')}/>
               <View style={styles.detProdInfo}>
-                <Text style={styles.detProdInfoText}>Marca: Apple</Text>
-                <Text style={styles.detProdInfoText}>Fabricante: Apple</Text>
-                <Text style={styles.detProdInfoText}>Armazenamento: 64GB</Text>
-                <Text style={styles.detProdInfoText}>Memória RAM: 2GB</Text>
+                <Text style={styles.detProdInfoText}>--</Text>
+-
               </View>
               <View style={styles.btnContainer}>
                 <TouchableOpacity onPress={logOut}><Text style={styles.btnCad}>Encerrar Compra</Text></TouchableOpacity>
